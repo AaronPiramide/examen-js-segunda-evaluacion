@@ -1,9 +1,7 @@
 import { get } from "./peticiones.js";
 
-
 librosDisponibles();
 document.getElementById("btnLogin").addEventListener("click", validarLogin);
-
 
 export function validarLogin() {
 

@@ -80,8 +80,7 @@ export function librosDisponibles() {
             li.append(botonPrestar)
             listaOrdenada.append(li);
             botonPrestar.addEventListener("click", prestarLibro);
-        });
-
+        });        
     }, error => {
         console.log("Error: ", error);
         errorPrestados.textContent = "Error de servidor: 500"

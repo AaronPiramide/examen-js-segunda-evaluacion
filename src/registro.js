@@ -43,7 +43,6 @@ export function controlarEnvioRegistro(eventoSubmit) {
     }
 }
 
-
 export function validarNombre() {
 
     const nombreUsuario = document.getElementById("nombre").value;
