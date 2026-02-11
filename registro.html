@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca virtual</title>
+    <script type="module" src="./src/peticiones.js"></script>
+    <script type="module" src="./src/registro.js"></script>
+    <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+    <h1>Registro nuevo usuario</h1>
+    <main>
+        <form id="formRegistro">
+            Nombre (*): <input type="text" id="nombre" /><span class="resaltado" id="errorNombre"></span><br>
+
+            Apellidos (*): <input type="text" id="apellidos" /><span class="resaltado" id="errorApellidos"></span><br>
+
+            Email: <input type="text" id="email"><span class="resaltado" id="errorEmail"></span><br>
+
+            Repetir Email: <input type="text" id="repetirEmail"><span class="resaltado"
+                id="errorRepetirEmail"></span><br>
+
+            Password (*): <input type="password" id="password"><span class="resaltado" id="errorPassword"></span><br>
+
+            Repetir Password (*): <input type="password" id="repetirPassword"><span class="resaltado"
+                id="errorRepetirPassword"></span><br />
+
+            Acepto las condiciones del servicio: <input type="checkbox" id="condiciones" /><span id="errorCondiciones"
+                class="resaltado"></span><br>
+
+            Deseas recibir novedades: <input type="checkbox" id="news" /><br>
+
+            <button id="btnRegistrarUsuario">Registrar usuario</button><span class="resaltado"
+                id="errorRegistro"></span>
+        </form>
+    </main>
+
+</body>
+
+</html>
